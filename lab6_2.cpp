@@ -32,7 +32,7 @@ int main(){
     cout << endl << name << ": ";
     cin >> stdnum;
     cin.ignore();
-    cout << "Fahsai: I think you may be GEAR " << stdnum/10000000 << ".  I have a free movie tickets for you." ;
+    cout << "Fahsai: I think you may be GEAR " << (stdnum/10000000)-12 << ".  I have a free movie tickets for you." ;
     cout << endl << "Fahsai: Let's go to cinema together!!!" << endl;
     cout << "Fahsai: What movie do you want to watch?" << endl;
     cout << name << ": ";
